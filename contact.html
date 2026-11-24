@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Contact page</title>
+</head>
+<body>
+
+  <header class="site-header">
+    <img src="pic/contact us2.jpg" alt="contact page" class="header-background">
+    <a href="contact.html" class="logo">Salam<span>Brunei</span></a>
+    <button id="dark-theme" class="theme-button"> Dark Mode</button>
+    <div class="header-text">
+      <h1>Get in <span>Touch</span> with Us!</h1>
+      <p>If you have any Questions or Doubts, feel free to ask us anytime! we are here to help you :)</p>
+    </div>
+  </header>
+
+  <nav class="navbar">
+    <a href="index.html" class="nav-item">&bull; Discover Brunei</a>
+    <a href="attractions.html" class="nav-item"> &bull; Tourist Attraction</a> 
+    <a href="culture.html" class="nav-item">&bull; Culture & Dining</a>
+    <a href="events.html" class="nav-item">&bull; Events & Happenings</a>
+    <a href="contact.html" class="nav-item active">&bull; Contact us</a>
+  </nav>
+
+<main> 
+ <div class="contact-section">
+  <h2>Contact Us</h2>
+  <div class="contact-line"></div>
+  <h4>Have a question about visiting Brunei? Please Send us a message below :)<hr></h4>
+  </div>
+
+  <form class="contact-form">
+  <div class="form-group">
+    <label for="full-name">Full Name</label>
+      <input type="text" id="full-name" name="fullName" placeholder="Enter your full name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+    </div>
+
+    <div class="form-group">
+      <label for="topic">Topic</label>
+      <select id="topic" name="topic" required>
+        <option value="" disabled selected>Select a topic</option>
+        <option value="attractions">Tourist Attractions</option>
+        <option value="visa">Visa &amp; Entry Information</option>
+        <option value="accommodation">Accommodation &amp; Stays</option>
+        <option value="culture">Culture &amp; Events</option>
+        <option value="general">General Inquiry</option>
+       </select>
+     </div>
+
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+      </div>
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<section class="travel-section">
+  <h2>Visitor &amp; Travel Information</h2>
+  <div class="travel-line"></div>
+
+   <div class="travel-grid">
+
+    <div class="travel-card">
+      <img src="pic/passport.jfif" alt="Brunei Visa Information">
+      <div class="travel-overlay">
+        <h3>Visa Information</h3>
+        <div class="travel-card-line"></div>
+        <p>Check entry rules and visa requirements before traveling to Brunei.</p>
+        <a href="https://www.immigration.gov.bn/" target="_blank" rel="noopener noreferrer" class="round-button">Visa Information</a>
+       </div>
+           </div>
+
+    
+    <div class="travel-card">
+      <img src="pic/raddison.webp" alt="Brunei Accommodation">
+        <div class="travel-overlay">
+        <h3>Accommodation</h3>
+        <div class="travel-card-line"></div>
+        <p>Explore hotels, luxury resorts, and cozy stays across Brunei.</p>
+        <a href="https://www.bruneitourism.com/accommodations/?_accommodation_type=hotels" target="_blank" rel="noopener noreferrer" class="round-button">Find Stays</a>
+       </div>
+          </div>
+
+    <div class="travel-card">
+      <img src="pic/rba.jfif" alt="Brunei Flight Information">
+      <div class="travel-overlay">
+        <h3>Flight Information</h3>
+        <div class="travel-card-line"></div>
+        <p>Plan your arrival into Brunei International Airport (BWN).</p>
+        <a href="https://www.flyroyalbrunei.com/" target="_blank" rel="noopener noreferrer" class="round-button">Flight Information</a>
+        </div>
+
+       </div>
+
+    <div class="travel-card">
+      <img src="pic/tips.jfif" alt="Brunei Advice and Travel Tips">
+      <div class="travel-overlay">
+        <h3>Essential tips and advices</h3>
+        <div class="travel-card-line"></div>
+        <p>Helpful local etiquette, weather, and travel advice for visitors.</p>
+        <a href="https://www.bruneitourism.com/useful-tips/" target="_blank" rel="noopener noreferrer" class="round-button">Read Tips and Advice</a>
+        </div>
+          </div>
+         </div>
+
+       </section>
+   </main>
+
+
+<script src="script.js"></script>
+ <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Salam Brunei</h3>
+      </div>
+      <div>
+        <h4>Official Resources</h4>
+      <ul>
+          <li><a href="https://www.bruneitourism.com/" target="_blank" rel="noopener noreferrer">Brunei Tourism Official Portal</a></li>
+          <li><a href="https://www.immigration.gov.bn/" target="_blank" rel="noopener noreferrer">Brunei Immigration Department</a></li>
+          <li><a href="https://www.flyroyalbrunei.com/" target="_blank" rel="noopener noreferrer">Royal Brunei Airlines</a></li>
+          <li><a href="https://wynchblog.com/2nd-south-east-asia-weiqi-league-in-brunei/" target="_blank" rel="noopener noreferrer">The 2nd South East Asia Weiqi League</a></li>
+      </ul>
+      </div>
+    </div>
+    <p class="copyright">Copyright &copy; 2026 Salam Brunei Tourism</p>
+  </footer>
+
+
+</body>
+</html>
